@@ -9,12 +9,17 @@ public class Sum {
         int sum = 0;
         int number;
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Please enter the whole number:");
-            number = scanner.nextInt();
-            sum += number;
+        System.out.println("Please enter a whole number of elements to scan: ");
+        int amountOfElementsToScan = scanner.nextInt();
+        if (amountOfElementsToScan <= 0) {
+            System.out.println("This number must be greater than 0!");
+        } else {
+            for (int i = 0; i < amountOfElementsToScan; i++) {
+                System.out.println("Please enter the whole number:");
+                number = scanner.nextInt();
+                sum += number;
+            }
+            System.out.println("Total sum is: " + sum);
         }
-
-        System.out.println("Total sum is: " + sum);
     }
 }
