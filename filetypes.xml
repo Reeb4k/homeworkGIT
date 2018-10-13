@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="check" type="PLAIN_TEXT" />
       <mapping pattern="real" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
       <mapping ext="settings" type="PLAIN_TEXT" />
     </extensionMap>
