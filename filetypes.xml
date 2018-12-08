@@ -6,6 +6,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="srcrelative" type="PLAIN_TEXT" />
       <mapping pattern="relative" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="settings" type="PLAIN_TEXT" />
